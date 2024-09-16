@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</head>
+
+ <style>
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  main{height: 100vh;}
+  
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .rate{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(97, 97, 83);
+    display: inline-block;
+  }
+  #a1{
+    background-color: rgb(162, 248, 248);
+  }
+
+  .project{
+    margin-top:100px ;
+  margin-bottom: 100px;
+text-align: center;}
+    
+
+  img{
+   width: 400px;
+   height: 300px;
+    
+  }
+  .pros{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .pro-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .tail a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  aside{background-color: lightgray;}
+  .contact{
+    background-color: lightgray;
+   text-align: center;
+   padding: 10px;
+  }
+  footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+ </style>     
+<body>
+  <video  autoplay loop muted plays-inline src="vid.mp4"></video>
+    <div>
+    
+        <header class="bg-dark text-white">
+         
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Sherifa</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="mx-auto">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="icon-link icon-link-hover nav-link active text-danger" aria-current="page" href="#h1">Home</a>
+                        <a class="nav-link" href="#a1">About</a>
+                        <a class="nav-link " href="#p1">Project</a>
+                        <a class="nav-link" href="#s1">Skills</a>
+                        <a class="nav-link" href="#c1">Contacts</a>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main class="into" class="d-flex flex-column justify-content-center align-items-center " id="h1">
+         
+         <div class="ml-5 ">
+            <h3 class=" text-center mt-5 text-white">Hello I'm<span class="text-info"> Sherifa sayegh</span> a frontend developer.</h3>
+           <div class=" text-center"> <button type="button" href="#p1" class="btn-sm p-3 my-5 text-info border-info bg-dark"><a class="nav-link " href="#p1">Veiw my work</a></button></div>
+         </div>
+        </main>
+
+        <section class="container d-flex flex-column justify-content-center align-items-center" id="a1">
+          <h1 class="text-center mt-5">About Me</h3>
+
+          <h1 class="my-5 text-danger fs-3" >"Creating Seamless Experiences, One Pixel at a Time"</h1>
+            <img class="w-25 h-25" src="nathan-da-silva-k-rKfqSm4L4-unsplash.jpg" alt="">
+         <p class="w-50 align-text-center text-wrap fs-5"> Hi, I’m Sherifa, a frontend developer passionate about delivering exceptional user experiences through thoughtful design and precise execution. My approach revolves around the belief that every pixel matters in creating designs that are not only visually appealing but also functional and user-friendly. By focusing on detail and consistency, I aim to craft digital solutions that seamlessly blend form and function.</h6>
+           </section>
+
+           <aside class="container d-flex flex-column justify-content-center mt-5" id="s1">
+            <h1 class="text-center">Skills</h3>
+           <div>
+              <h3>HTML <div class="rate"></div></h1>
+              <h3>CSS  <div class="rate"></div></h1>
+              <h3>Bootstrap  <div class="rate"></div></h1>
+              <h3>Figma  <div class="rate"></div></h1>
+           </div>
+          </aside>
+
+          <main class="project align-items-center w-100" id="p1">
+            <h1 class="Project">PROJECTS</h1>
+           <div class="pros align-items-center w-100">
+              <div class="pro-container">
+                <a class="text-decoration-none text-dark" href="https://sherifa018.github.io/index-html-forms/"><img src="html.jpg" alt=""> <h5 class="tail">HTML</h5></a>
+                 <a class="text-decoration-none text-dark" href="https://sherifa018.github.io/landing-page/"><img src="css.jpg" alt=""><h5 class="tail">css</h5></a>
+              </div>
+
+               <div class="pro-container">
+                 <a class="text-decoration-none text-dark" href="https://sherifa018.github.io/bootstrap-7/"><img src="boot.jpg" alt=""><h5 class="tail">Bootstrap</h5></a>
+                 <a class="text-decoration-none text-dark" href="C:\Users\HP\Downloads\figma2.pdf"><img src="figma.jpeg" alt=""><h5 class="tail">Figma</h5></a>
+               </div>
+           </div>
+          </main>
+
+          <section class="contact" id="c1">
+            <h1>Contact Us</h1>
+            <h6>Address</h6>
+            <p>jdnsd street, Addis Ababa</p>
+
+            <h6>Call Us</h6>
+            <p>0904057998</p>
+
+            <h6>Email Us</h6>
+            <p>sherifaalsaiqe@gmial.com</p>
+          </section>
+
+          <footer>
+            <p>Copyright &copy;Sherifa all rights reserved</p>
+            <p>Designed by <a href="">BootstrapMade</a></p>
+          </footer>
+
+
+        
+         
+         
+    </div>
+
+
+</body>
+</html>
